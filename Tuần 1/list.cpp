@@ -1,9 +1,5 @@
 #include "list.h"
 
-void init(List &l) {
-    l.size = 0;
-}
-
 int get(List l, int i) {
     if (i < 0 || i >= l.size) return -1;
     return l.a[i];
@@ -64,4 +60,5 @@ void traverseBack(List l) {
     }
     cout << endl;
 }
+
 
