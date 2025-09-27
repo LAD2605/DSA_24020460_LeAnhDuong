@@ -109,7 +109,7 @@ void traverseFor(node a) {
 
 void traverseBack(node a) {
     if (a == NULL) return;
-    traverseBackward(a->next);
+    traverseBack(a->next);
     cout << a->data << " ";
 }
 
@@ -122,4 +122,5 @@ int get(node a, int pos) {
     }
     return -1;
 }
+
 
