@@ -5,9 +5,9 @@ const int MAX = 1000;
 struct List {
     int a[MAX];
     int size;
+    List() : size(0) {}
 };
 
-void init(List &l);
 int get(List l, int i);
 void insertFirst(List &l, int n);
 void insertLast(List &l, int n);
